@@ -1,0 +1,3518 @@
+{
+  "shop_info": {
+    "name": "Premium Bike Shop",
+    "currency": "EUR"
+  },
+  "categories": {
+    "E-Bikes": [
+      {
+        "id": "EB-001",
+        "name": "Yamaha City E-Bike Carbon",
+        "price": 3416.73,
+        "margin": 0.19,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-002",
+        "name": "Haibike Mountain E-Bike Plus",
+        "price": 4547.8,
+        "margin": 0.16,
+        "duration_minutes": 16
+      },
+      {
+        "id": "EB-003",
+        "name": "Trek Touring E-Bike Plus",
+        "price": 1503.33,
+        "margin": 0.19,
+        "duration_minutes": 30
+      },
+      {
+        "id": "EB-004",
+        "name": "Haibike Fat Bike E-Bike EX",
+        "price": 4757.91,
+        "margin": 0.2,
+        "duration_minutes": 10
+      },
+      {
+        "id": "EB-005",
+        "name": "TQ Fat Bike E-Bike Comfort",
+        "price": 3438.61,
+        "margin": 0.19,
+        "duration_minutes": 20
+      },
+      {
+        "id": "EB-006",
+        "name": "Yamaha Mountain E-Bike Speed",
+        "price": 2043.72,
+        "margin": 0.28,
+        "duration_minutes": 29
+      },
+      {
+        "id": "EB-007",
+        "name": "Cube City E-Bike Carbon",
+        "price": 4836.57,
+        "margin": 0.18,
+        "duration_minutes": 22
+      },
+      {
+        "id": "EB-008",
+        "name": "Brose Touring E-Bike Sport",
+        "price": 7685.42,
+        "margin": 0.25,
+        "duration_minutes": 21
+      },
+      {
+        "id": "EB-009",
+        "name": "Specialized Mountain E-Bike Pro",
+        "price": 6390.73,
+        "margin": 0.27,
+        "duration_minutes": 12
+      },
+      {
+        "id": "EB-010",
+        "name": "Trek Mountain E-Bike Speed",
+        "price": 3439.4,
+        "margin": 0.25,
+        "duration_minutes": 21
+      },
+      {
+        "id": "EB-011",
+        "name": "TQ Folding E-Bike Comfort",
+        "price": 2912.2,
+        "margin": 0.2,
+        "duration_minutes": 30
+      },
+      {
+        "id": "EB-012",
+        "name": "Brose Commuter E-Bike Ultra",
+        "price": 2616.77,
+        "margin": 0.26,
+        "duration_minutes": 15
+      },
+      {
+        "id": "EB-013",
+        "name": "Kalkhoff Fat Bike E-Bike Sport",
+        "price": 8918.33,
+        "margin": 0.25,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-014",
+        "name": "Trek Folding E-Bike Lite",
+        "price": 7215.01,
+        "margin": 0.17,
+        "duration_minutes": 11
+      },
+      {
+        "id": "EB-015",
+        "name": "Canyon Fat Bike E-Bike Sport",
+        "price": 1808.65,
+        "margin": 0.29,
+        "duration_minutes": 28
+      },
+      {
+        "id": "EB-016",
+        "name": "Canyon Trekking E-Bike Ultra",
+        "price": 5143.08,
+        "margin": 0.28,
+        "duration_minutes": 30
+      },
+      {
+        "id": "EB-017",
+        "name": "Kalkhoff Cargo E-Bike Sport",
+        "price": 2374.15,
+        "margin": 0.26,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-018",
+        "name": "Cube Commuter E-Bike Speed",
+        "price": 8212.24,
+        "margin": 0.22,
+        "duration_minutes": 17
+      },
+      {
+        "id": "EB-019",
+        "name": "Fazua Touring E-Bike S",
+        "price": 1999.0,
+        "margin": 0.17,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-020",
+        "name": "Fazua Cargo E-Bike Alloy",
+        "price": 6538.71,
+        "margin": 0.24,
+        "duration_minutes": 22
+      },
+      {
+        "id": "EB-021",
+        "name": "Merida Commuter E-Bike S",
+        "price": 5373.18,
+        "margin": 0.3,
+        "duration_minutes": 10
+      },
+      {
+        "id": "EB-022",
+        "name": "Yamaha Touring E-Bike Alloy",
+        "price": 3353.55,
+        "margin": 0.25,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-023",
+        "name": "Giant Fat Bike E-Bike GT",
+        "price": 4792.67,
+        "margin": 0.29,
+        "duration_minutes": 18
+      },
+      {
+        "id": "EB-024",
+        "name": "Stromer Cargo E-Bike X",
+        "price": 8326.23,
+        "margin": 0.28,
+        "duration_minutes": 19
+      },
+      {
+        "id": "EB-025",
+        "name": "Stromer Commuter E-Bike EX",
+        "price": 2475.86,
+        "margin": 0.27,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-026",
+        "name": "Stromer City E-Bike Plus",
+        "price": 3795.0,
+        "margin": 0.16,
+        "duration_minutes": 21
+      },
+      {
+        "id": "EB-027",
+        "name": "Giant Trekking E-Bike Pro",
+        "price": 3153.71,
+        "margin": 0.24,
+        "duration_minutes": 12
+      },
+      {
+        "id": "EB-028",
+        "name": "Brose Road E-Bike Lite",
+        "price": 1831.94,
+        "margin": 0.27,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-029",
+        "name": "Fazua Road E-Bike X",
+        "price": 2570.48,
+        "margin": 0.23,
+        "duration_minutes": 29
+      },
+      {
+        "id": "EB-030",
+        "name": "Riese & Müller Trekking E-Bike Max",
+        "price": 5451.58,
+        "margin": 0.26,
+        "duration_minutes": 16
+      },
+      {
+        "id": "EB-031",
+        "name": "Giant Fat Bike E-Bike Ultra",
+        "price": 6303.06,
+        "margin": 0.22,
+        "duration_minutes": 26
+      },
+      {
+        "id": "EB-032",
+        "name": "Kalkhoff Mountain E-Bike EX",
+        "price": 3029.17,
+        "margin": 0.21,
+        "duration_minutes": 28
+      },
+      {
+        "id": "EB-033",
+        "name": "Haibike Trekking E-Bike Plus",
+        "price": 2994.67,
+        "margin": 0.17,
+        "duration_minutes": 30
+      },
+      {
+        "id": "EB-034",
+        "name": "Shimano Trekking E-Bike Elite",
+        "price": 8270.73,
+        "margin": 0.28,
+        "duration_minutes": 12
+      },
+      {
+        "id": "EB-035",
+        "name": "Stromer Trekking E-Bike Sport",
+        "price": 6450.13,
+        "margin": 0.19,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-036",
+        "name": "Gazelle Trekking E-Bike Alloy",
+        "price": 4940.89,
+        "margin": 0.22,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-037",
+        "name": "Yamaha Fat Bike E-Bike Comfort",
+        "price": 4560.56,
+        "margin": 0.23,
+        "duration_minutes": 11
+      },
+      {
+        "id": "EB-038",
+        "name": "Yamaha City E-Bike Speed",
+        "price": 6906.24,
+        "margin": 0.27,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-039",
+        "name": "Trek Trekking E-Bike EX",
+        "price": 5428.4,
+        "margin": 0.18,
+        "duration_minutes": 15
+      },
+      {
+        "id": "EB-040",
+        "name": "Cube Road E-Bike EX",
+        "price": 8032.54,
+        "margin": 0.17,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-041",
+        "name": "Yamaha City E-Bike Ultra",
+        "price": 8993.48,
+        "margin": 0.28,
+        "duration_minutes": 12
+      },
+      {
+        "id": "EB-042",
+        "name": "Trek Cargo E-Bike Speed",
+        "price": 5038.44,
+        "margin": 0.19,
+        "duration_minutes": 22
+      },
+      {
+        "id": "EB-043",
+        "name": "Shimano Cargo E-Bike Speed",
+        "price": 1315.6,
+        "margin": 0.21,
+        "duration_minutes": 24
+      },
+      {
+        "id": "EB-044",
+        "name": "Giant Fat Bike E-Bike Carbon",
+        "price": 8670.35,
+        "margin": 0.3,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-045",
+        "name": "Gazelle Cargo E-Bike EX",
+        "price": 3583.65,
+        "margin": 0.3,
+        "duration_minutes": 28
+      },
+      {
+        "id": "EB-046",
+        "name": "Haibike City E-Bike Carbon",
+        "price": 3713.76,
+        "margin": 0.17,
+        "duration_minutes": 25
+      },
+      {
+        "id": "EB-047",
+        "name": "Stromer Touring E-Bike GT",
+        "price": 1736.97,
+        "margin": 0.23,
+        "duration_minutes": 15
+      },
+      {
+        "id": "EB-048",
+        "name": "Brose Commuter E-Bike Elite",
+        "price": 6498.14,
+        "margin": 0.19,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-049",
+        "name": "Trek Commuter E-Bike Plus",
+        "price": 1605.01,
+        "margin": 0.17,
+        "duration_minutes": 28
+      },
+      {
+        "id": "EB-050",
+        "name": "Stromer Folding E-Bike Max",
+        "price": 3306.9,
+        "margin": 0.25,
+        "duration_minutes": 20
+      },
+      {
+        "id": "EB-051",
+        "name": "Trek Gravel E-Bike Speed",
+        "price": 2306.76,
+        "margin": 0.25,
+        "duration_minutes": 24
+      },
+      {
+        "id": "EB-052",
+        "name": "Canyon Mountain E-Bike Pro",
+        "price": 4827.8,
+        "margin": 0.3,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-053",
+        "name": "Brose Touring E-Bike EX",
+        "price": 5194.31,
+        "margin": 0.18,
+        "duration_minutes": 21
+      },
+      {
+        "id": "EB-054",
+        "name": "Brose Trekking E-Bike Comfort",
+        "price": 3493.4,
+        "margin": 0.22,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-055",
+        "name": "Giant Commuter E-Bike Alloy",
+        "price": 6334.62,
+        "margin": 0.16,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-056",
+        "name": "Giant Mountain E-Bike Max",
+        "price": 2333.04,
+        "margin": 0.18,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-057",
+        "name": "Haibike Cargo E-Bike Sport",
+        "price": 3468.52,
+        "margin": 0.19,
+        "duration_minutes": 20
+      },
+      {
+        "id": "EB-058",
+        "name": "Specialized Gravel E-Bike X",
+        "price": 5060.7,
+        "margin": 0.29,
+        "duration_minutes": 11
+      },
+      {
+        "id": "EB-059",
+        "name": "Brose Fat Bike E-Bike Lite",
+        "price": 3429.44,
+        "margin": 0.16,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-060",
+        "name": "Cube Cargo E-Bike Carbon",
+        "price": 4701.13,
+        "margin": 0.26,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-061",
+        "name": "Bosch Mountain E-Bike Elite",
+        "price": 8575.89,
+        "margin": 0.26,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-062",
+        "name": "Haibike City E-Bike Lite",
+        "price": 4141.96,
+        "margin": 0.24,
+        "duration_minutes": 23
+      },
+      {
+        "id": "EB-063",
+        "name": "Fazua City E-Bike Sport",
+        "price": 4106.82,
+        "margin": 0.29,
+        "duration_minutes": 11
+      },
+      {
+        "id": "EB-064",
+        "name": "Scott Trekking E-Bike Ultra",
+        "price": 3220.38,
+        "margin": 0.17,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-065",
+        "name": "Riese & Müller Commuter E-Bike Carbon",
+        "price": 2489.06,
+        "margin": 0.29,
+        "duration_minutes": 15
+      },
+      {
+        "id": "EB-066",
+        "name": "TQ Fat Bike E-Bike Pro",
+        "price": 2680.08,
+        "margin": 0.29,
+        "duration_minutes": 23
+      },
+      {
+        "id": "EB-067",
+        "name": "Trek Gravel E-Bike GT",
+        "price": 7361.78,
+        "margin": 0.18,
+        "duration_minutes": 11
+      },
+      {
+        "id": "EB-068",
+        "name": "Gazelle Trekking E-Bike EX",
+        "price": 7586.72,
+        "margin": 0.22,
+        "duration_minutes": 19
+      },
+      {
+        "id": "EB-069",
+        "name": "Trek Trekking E-Bike Pro",
+        "price": 6381.26,
+        "margin": 0.22,
+        "duration_minutes": 18
+      },
+      {
+        "id": "EB-070",
+        "name": "Brose Gravel E-Bike Comfort",
+        "price": 6238.41,
+        "margin": 0.22,
+        "duration_minutes": 27
+      },
+      {
+        "id": "EB-071",
+        "name": "Canyon City E-Bike Elite",
+        "price": 8052.2,
+        "margin": 0.2,
+        "duration_minutes": 28
+      },
+      {
+        "id": "EB-072",
+        "name": "Cube City E-Bike Elite",
+        "price": 5892.6,
+        "margin": 0.21,
+        "duration_minutes": 20
+      },
+      {
+        "id": "EB-073",
+        "name": "Riese & Müller Commuter E-Bike X",
+        "price": 2189.47,
+        "margin": 0.29,
+        "duration_minutes": 16
+      },
+      {
+        "id": "EB-074",
+        "name": "Riese & Müller City E-Bike X",
+        "price": 8425.93,
+        "margin": 0.24,
+        "duration_minutes": 16
+      },
+      {
+        "id": "EB-075",
+        "name": "Scott Fat Bike E-Bike Elite",
+        "price": 8605.33,
+        "margin": 0.29,
+        "duration_minutes": 29
+      },
+      {
+        "id": "EB-076",
+        "name": "Canyon Mountain E-Bike Carbon",
+        "price": 8229.36,
+        "margin": 0.23,
+        "duration_minutes": 23
+      },
+      {
+        "id": "EB-077",
+        "name": "Canyon Fat Bike E-Bike Carbon",
+        "price": 3575.55,
+        "margin": 0.18,
+        "duration_minutes": 23
+      },
+      {
+        "id": "EB-078",
+        "name": "Merida Cargo E-Bike Plus",
+        "price": 5681.11,
+        "margin": 0.22,
+        "duration_minutes": 10
+      },
+      {
+        "id": "EB-079",
+        "name": "Giant Gravel E-Bike EX",
+        "price": 4609.14,
+        "margin": 0.24,
+        "duration_minutes": 30
+      },
+      {
+        "id": "EB-080",
+        "name": "Canyon Road E-Bike S",
+        "price": 4703.63,
+        "margin": 0.19,
+        "duration_minutes": 25
+      },
+      {
+        "id": "EB-081",
+        "name": "TQ Mountain E-Bike Sport",
+        "price": 5267.98,
+        "margin": 0.25,
+        "duration_minutes": 20
+      },
+      {
+        "id": "EB-082",
+        "name": "Brose Trekking E-Bike Ultra",
+        "price": 3689.23,
+        "margin": 0.27,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-083",
+        "name": "Bosch City E-Bike EX",
+        "price": 8875.31,
+        "margin": 0.25,
+        "duration_minutes": 12
+      },
+      {
+        "id": "EB-084",
+        "name": "Kalkhoff Fat Bike E-Bike Max",
+        "price": 6148.19,
+        "margin": 0.19,
+        "duration_minutes": 22
+      },
+      {
+        "id": "EB-085",
+        "name": "Gazelle Fat Bike E-Bike EX",
+        "price": 2435.3,
+        "margin": 0.26,
+        "duration_minutes": 13
+      },
+      {
+        "id": "EB-086",
+        "name": "Riese & Müller Trekking E-Bike GT",
+        "price": 7490.65,
+        "margin": 0.26,
+        "duration_minutes": 24
+      },
+      {
+        "id": "EB-087",
+        "name": "Shimano Touring E-Bike EX",
+        "price": 8363.52,
+        "margin": 0.18,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-088",
+        "name": "Kalkhoff Touring E-Bike X",
+        "price": 5883.98,
+        "margin": 0.29,
+        "duration_minutes": 24
+      },
+      {
+        "id": "EB-089",
+        "name": "Stromer Fat Bike E-Bike Lite",
+        "price": 8281.78,
+        "margin": 0.22,
+        "duration_minutes": 15
+      },
+      {
+        "id": "EB-090",
+        "name": "Gazelle Road E-Bike Sport",
+        "price": 7087.68,
+        "margin": 0.28,
+        "duration_minutes": 18
+      },
+      {
+        "id": "EB-091",
+        "name": "Stromer Road E-Bike Ultra",
+        "price": 3141.19,
+        "margin": 0.22,
+        "duration_minutes": 19
+      },
+      {
+        "id": "EB-092",
+        "name": "Trek Gravel E-Bike Comfort",
+        "price": 3760.76,
+        "margin": 0.24,
+        "duration_minutes": 14
+      },
+      {
+        "id": "EB-093",
+        "name": "Fazua Trekking E-Bike Speed",
+        "price": 6642.41,
+        "margin": 0.26,
+        "duration_minutes": 12
+      },
+      {
+        "id": "EB-094",
+        "name": "Riese & Müller Fat Bike E-Bike Comfort",
+        "price": 5477.11,
+        "margin": 0.22,
+        "duration_minutes": 16
+      },
+      {
+        "id": "EB-095",
+        "name": "Riese & Müller Fat Bike E-Bike Max",
+        "price": 7226.43,
+        "margin": 0.29,
+        "duration_minutes": 10
+      },
+      {
+        "id": "EB-096",
+        "name": "Merida Road E-Bike Pro",
+        "price": 8558.11,
+        "margin": 0.2,
+        "duration_minutes": 22
+      },
+      {
+        "id": "EB-097",
+        "name": "Riese & Müller Touring E-Bike Carbon",
+        "price": 6955.68,
+        "margin": 0.27,
+        "duration_minutes": 17
+      },
+      {
+        "id": "EB-098",
+        "name": "Gazelle Trekking E-Bike Sport",
+        "price": 4654.94,
+        "margin": 0.16,
+        "duration_minutes": 20
+      },
+      {
+        "id": "EB-099",
+        "name": "Merida Cargo E-Bike Lite",
+        "price": 4897.9,
+        "margin": 0.18,
+        "duration_minutes": 29
+      },
+      {
+        "id": "EB-100",
+        "name": "Haibike City E-Bike Max",
+        "price": 4332.96,
+        "margin": 0.24,
+        "duration_minutes": 10
+      }
+    ],
+    "Bio-Bikes": [
+      {
+        "id": "BB-001",
+        "name": "Giant Enduro Team",
+        "price": 912.15,
+        "margin": 0.28,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-002",
+        "name": "Ghost Cross Comp",
+        "price": 1227.39,
+        "margin": 0.26,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-003",
+        "name": "Ghost Cross Sport",
+        "price": 3813.88,
+        "margin": 0.28,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-004",
+        "name": "Bianchi Trekking Lite",
+        "price": 633.77,
+        "margin": 0.34,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-005",
+        "name": "Trek Trekking Elite",
+        "price": 3831.8,
+        "margin": 0.3,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-006",
+        "name": "Merida Fixie Lite",
+        "price": 823.72,
+        "margin": 0.34,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-007",
+        "name": "Ghost MTB Alloy",
+        "price": 2863.45,
+        "margin": 0.35,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-008",
+        "name": "Cube Touring Carbon",
+        "price": 2750.54,
+        "margin": 0.34,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-009",
+        "name": "Pinarello XC Elite",
+        "price": 664.39,
+        "margin": 0.31,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-010",
+        "name": "Scott XC Sport",
+        "price": 3877.72,
+        "margin": 0.3,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-011",
+        "name": "Canyon MTB SL",
+        "price": 2126.77,
+        "margin": 0.27,
+        "duration_minutes": 15
+      },
+      {
+        "id": "BB-012",
+        "name": "Trek Cross GX",
+        "price": 786.99,
+        "margin": 0.34,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-013",
+        "name": "Merida Cross Alloy",
+        "price": 3394.25,
+        "margin": 0.35,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-014",
+        "name": "BMC Fixie GX",
+        "price": 2156.63,
+        "margin": 0.32,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-015",
+        "name": "KTM Trekking Carbon",
+        "price": 1506.55,
+        "margin": 0.28,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-016",
+        "name": "Pinarello MTB Pro",
+        "price": 2400.37,
+        "margin": 0.26,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-017",
+        "name": "Cannondale MTB Sport",
+        "price": 1761.41,
+        "margin": 0.33,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-018",
+        "name": "BMC City SL",
+        "price": 4283.46,
+        "margin": 0.23,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-019",
+        "name": "Orbea Single Speed Elite",
+        "price": 3215.03,
+        "margin": 0.3,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-020",
+        "name": "Focus City Carbon",
+        "price": 1570.08,
+        "margin": 0.27,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-021",
+        "name": "Tout Terrain Enduro Disc",
+        "price": 1880.43,
+        "margin": 0.29,
+        "duration_minutes": 16
+      },
+      {
+        "id": "BB-022",
+        "name": "Cervélo XC SL",
+        "price": 1721.78,
+        "margin": 0.31,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-023",
+        "name": "Tout Terrain Touring Elite",
+        "price": 849.72,
+        "margin": 0.25,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-024",
+        "name": "BMC XC Alloy",
+        "price": 1143.9,
+        "margin": 0.32,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-025",
+        "name": "Felt Hybrid Sport",
+        "price": 4418.12,
+        "margin": 0.33,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-026",
+        "name": "Specialized MTB Alloy",
+        "price": 1603.41,
+        "margin": 0.31,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-027",
+        "name": "Ghost City Pro",
+        "price": 2645.44,
+        "margin": 0.31,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-028",
+        "name": "Orbea Gravel Pro",
+        "price": 2731.37,
+        "margin": 0.28,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-029",
+        "name": "KTM Road Race Pro",
+        "price": 1396.79,
+        "margin": 0.33,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-030",
+        "name": "Giant Cross GX",
+        "price": 656.44,
+        "margin": 0.3,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-031",
+        "name": "Merida Road Race Disc",
+        "price": 4287.87,
+        "margin": 0.23,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-032",
+        "name": "Scott Single Speed Team",
+        "price": 2865.22,
+        "margin": 0.32,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-033",
+        "name": "Felt Cross GX",
+        "price": 4119.29,
+        "margin": 0.26,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-034",
+        "name": "Tout Terrain Hybrid Disc",
+        "price": 598.96,
+        "margin": 0.34,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-035",
+        "name": "Cannondale Enduro Elite",
+        "price": 1447.28,
+        "margin": 0.23,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-036",
+        "name": "Cube Single Speed Carbon",
+        "price": 998.61,
+        "margin": 0.27,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-037",
+        "name": "Tout Terrain City Elite",
+        "price": 1544.64,
+        "margin": 0.26,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-038",
+        "name": "Giant Enduro Elite",
+        "price": 4183.23,
+        "margin": 0.32,
+        "duration_minutes": 11
+      },
+      {
+        "id": "BB-039",
+        "name": "Cervélo Gravel SL",
+        "price": 1281.96,
+        "margin": 0.24,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-040",
+        "name": "Merida Gravel Pro",
+        "price": 1037.58,
+        "margin": 0.26,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-041",
+        "name": "Focus Gravel GX",
+        "price": 3207.01,
+        "margin": 0.31,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-042",
+        "name": "Felt Single Speed GX",
+        "price": 2165.7,
+        "margin": 0.3,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-043",
+        "name": "KTM Hybrid Sport",
+        "price": 456.34,
+        "margin": 0.25,
+        "duration_minutes": 5
+      },
+      {
+        "id": "BB-044",
+        "name": "Ghost Hybrid Pro",
+        "price": 3515.9,
+        "margin": 0.24,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-045",
+        "name": "Ghost Road Race Disc",
+        "price": 2157.92,
+        "margin": 0.33,
+        "duration_minutes": 7
+      },
+      {
+        "id": "BB-046",
+        "name": "Orbea MTB Team",
+        "price": 1732.23,
+        "margin": 0.31,
+        "duration_minutes": 10
+      },
+      {
+        "id": "BB-047",
+        "name": "KTM Cross Adventure",
+        "price": 2405.2,
+        "margin": 0.31,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-048",
+        "name": "BMC City GX",
+        "price": 714.45,
+        "margin": 0.25,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-049",
+        "name": "Pinarello Single Speed Pro",
+        "price": 3078.29,
+        "margin": 0.29,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-050",
+        "name": "Canyon Trekking SL",
+        "price": 1850.38,
+        "margin": 0.32,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-051",
+        "name": "Canyon Trekking Sport",
+        "price": 2628.26,
+        "margin": 0.34,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-052",
+        "name": "Specialized XC Alloy",
+        "price": 1638.61,
+        "margin": 0.22,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-053",
+        "name": "Giant Trekking Carbon",
+        "price": 2264.01,
+        "margin": 0.24,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-054",
+        "name": "Orbea XC Sport",
+        "price": 2460.82,
+        "margin": 0.26,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-055",
+        "name": "Orbea Trekking GX",
+        "price": 2636.75,
+        "margin": 0.27,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-056",
+        "name": "Giant Touring Team",
+        "price": 1759.48,
+        "margin": 0.32,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-057",
+        "name": "Trek Touring Adventure",
+        "price": 1588.01,
+        "margin": 0.3,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-058",
+        "name": "Merida Fixie SL",
+        "price": 2359.02,
+        "margin": 0.26,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-059",
+        "name": "Focus MTB Elite",
+        "price": 4419.21,
+        "margin": 0.25,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-060",
+        "name": "Specialized Cross Pro",
+        "price": 1669.43,
+        "margin": 0.28,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-061",
+        "name": "Pinarello Enduro Lite",
+        "price": 4419.4,
+        "margin": 0.28,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-062",
+        "name": "Merida Single Speed Disc",
+        "price": 1726.78,
+        "margin": 0.23,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-063",
+        "name": "Scott Single Speed GX",
+        "price": 412.69,
+        "margin": 0.24,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-064",
+        "name": "Giant Fixie Sport",
+        "price": 1754.03,
+        "margin": 0.31,
+        "duration_minutes": 7
+      },
+      {
+        "id": "BB-065",
+        "name": "KTM Enduro SL",
+        "price": 1926.04,
+        "margin": 0.26,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-066",
+        "name": "BMC City Disc",
+        "price": 632.95,
+        "margin": 0.3,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-067",
+        "name": "Specialized XC Carbon",
+        "price": 2149.98,
+        "margin": 0.23,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-068",
+        "name": "Focus Road Race Adventure",
+        "price": 1591.78,
+        "margin": 0.22,
+        "duration_minutes": 15
+      },
+      {
+        "id": "BB-069",
+        "name": "Canyon Touring Comp",
+        "price": 1904.59,
+        "margin": 0.24,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-070",
+        "name": "Cube Road Race Alloy",
+        "price": 676.72,
+        "margin": 0.33,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-071",
+        "name": "Orbea Hybrid Alloy",
+        "price": 1312.58,
+        "margin": 0.3,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-072",
+        "name": "Ghost Enduro Pro",
+        "price": 4079.47,
+        "margin": 0.28,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-073",
+        "name": "BMC Road Race Carbon",
+        "price": 2182.18,
+        "margin": 0.26,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-074",
+        "name": "Cervélo XC Sport",
+        "price": 2244.87,
+        "margin": 0.26,
+        "duration_minutes": 17
+      },
+      {
+        "id": "BB-075",
+        "name": "Orbea Gravel Elite",
+        "price": 1931.66,
+        "margin": 0.27,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-076",
+        "name": "Tout Terrain City Lite",
+        "price": 1991.59,
+        "margin": 0.22,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-077",
+        "name": "Orbea Touring Elite",
+        "price": 2868.32,
+        "margin": 0.27,
+        "duration_minutes": 11
+      },
+      {
+        "id": "BB-078",
+        "name": "Ghost Enduro Adventure",
+        "price": 3534.0,
+        "margin": 0.31,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-079",
+        "name": "Scott Enduro Lite",
+        "price": 512.6,
+        "margin": 0.32,
+        "duration_minutes": 6
+      },
+      {
+        "id": "BB-080",
+        "name": "Bianchi XC Alloy",
+        "price": 723.05,
+        "margin": 0.26,
+        "duration_minutes": 18
+      },
+      {
+        "id": "BB-081",
+        "name": "Cube Trekking Alloy",
+        "price": 3613.03,
+        "margin": 0.33,
+        "duration_minutes": 16
+      },
+      {
+        "id": "BB-082",
+        "name": "Felt Single Speed Sport",
+        "price": 3795.46,
+        "margin": 0.25,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-083",
+        "name": "Tout Terrain XC Comp",
+        "price": 3686.57,
+        "margin": 0.28,
+        "duration_minutes": 7
+      },
+      {
+        "id": "BB-084",
+        "name": "Merida Trekking Lite",
+        "price": 3354.5,
+        "margin": 0.35,
+        "duration_minutes": 16
+      },
+      {
+        "id": "BB-085",
+        "name": "Giant Cross Pro",
+        "price": 1446.5,
+        "margin": 0.24,
+        "duration_minutes": 16
+      },
+      {
+        "id": "BB-086",
+        "name": "Ghost Hybrid Team",
+        "price": 3762.03,
+        "margin": 0.34,
+        "duration_minutes": 8
+      },
+      {
+        "id": "BB-087",
+        "name": "Specialized Fixie Pro",
+        "price": 2920.12,
+        "margin": 0.34,
+        "duration_minutes": 15
+      },
+      {
+        "id": "BB-088",
+        "name": "Specialized Enduro Carbon",
+        "price": 2985.93,
+        "margin": 0.28,
+        "duration_minutes": 14
+      },
+      {
+        "id": "BB-089",
+        "name": "Cervélo Gravel Alloy",
+        "price": 537.19,
+        "margin": 0.22,
+        "duration_minutes": 20
+      },
+      {
+        "id": "BB-090",
+        "name": "Scott Gravel Elite",
+        "price": 4031.13,
+        "margin": 0.24,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-091",
+        "name": "Bianchi Enduro Adventure",
+        "price": 3239.41,
+        "margin": 0.29,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-092",
+        "name": "Cervélo Enduro Carbon",
+        "price": 3808.83,
+        "margin": 0.3,
+        "duration_minutes": 13
+      },
+      {
+        "id": "BB-093",
+        "name": "Canyon XC Comp",
+        "price": 1250.67,
+        "margin": 0.28,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-094",
+        "name": "Bianchi Gravel Lite",
+        "price": 1873.44,
+        "margin": 0.34,
+        "duration_minutes": 16
+      },
+      {
+        "id": "BB-095",
+        "name": "Canyon Cross Sport",
+        "price": 1136.71,
+        "margin": 0.24,
+        "duration_minutes": 19
+      },
+      {
+        "id": "BB-096",
+        "name": "Trek City Comp",
+        "price": 1359.81,
+        "margin": 0.24,
+        "duration_minutes": 11
+      },
+      {
+        "id": "BB-097",
+        "name": "Giant Single Speed Elite",
+        "price": 2782.49,
+        "margin": 0.33,
+        "duration_minutes": 12
+      },
+      {
+        "id": "BB-098",
+        "name": "KTM Road Race Disc",
+        "price": 360.77,
+        "margin": 0.33,
+        "duration_minutes": 9
+      },
+      {
+        "id": "BB-099",
+        "name": "Merida Single Speed Sport",
+        "price": 3662.83,
+        "margin": 0.23,
+        "duration_minutes": 5
+      },
+      {
+        "id": "BB-100",
+        "name": "Merida City Comp",
+        "price": 3627.44,
+        "margin": 0.25,
+        "duration_minutes": 15
+      }
+    ],
+    "Zubehör": [
+      {
+        "id": "ZU-001",
+        "name": "Pro Premium Helm",
+        "price": 137.38,
+        "margin": 0.42,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-002",
+        "name": "Tour Fahrradbrille",
+        "price": 33.77,
+        "margin": 0.41,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-003",
+        "name": "Allround Schuhe",
+        "price": 177.31,
+        "margin": 0.4,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-004",
+        "name": "Lite Pumpset",
+        "price": 84.91,
+        "margin": 0.46,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-005",
+        "name": "Sport Pumpset",
+        "price": 48.35,
+        "margin": 0.59,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-006",
+        "name": "Trail Fahrradschloss",
+        "price": 173.04,
+        "margin": 0.44,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-007",
+        "name": "Trail Gepäcktasche",
+        "price": 145.86,
+        "margin": 0.43,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-008",
+        "name": "Allround Licht-Set",
+        "price": 98.08,
+        "margin": 0.46,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-009",
+        "name": "Tour Pedale",
+        "price": 111.58,
+        "margin": 0.44,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ZU-010",
+        "name": "Tour Reflektor-Set",
+        "price": 8.42,
+        "margin": 0.58,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-011",
+        "name": "Premium Fahrradbrille",
+        "price": 122.1,
+        "margin": 0.42,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-012",
+        "name": "Lite Flickzeug-Set",
+        "price": 10.45,
+        "margin": 0.68,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-013",
+        "name": "Allround Fahrradbrille",
+        "price": 126.56,
+        "margin": 0.46,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-014",
+        "name": "Allround Gepäcktasche",
+        "price": 103.01,
+        "margin": 0.46,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-015",
+        "name": "Pro Fahrradhose",
+        "price": 148.89,
+        "margin": 0.47,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-016",
+        "name": "Premium Licht-Set",
+        "price": 31.12,
+        "margin": 0.46,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-017",
+        "name": "Standard Flickzeug-Set",
+        "price": 12.8,
+        "margin": 0.63,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-018",
+        "name": "Premium Regenjacke",
+        "price": 131.16,
+        "margin": 0.56,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-019",
+        "name": "Standard Fahrradbrille",
+        "price": 144.89,
+        "margin": 0.49,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-020",
+        "name": "Premium Fahrradhose",
+        "price": 131.47,
+        "margin": 0.43,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-021",
+        "name": "Lite Rucksack",
+        "price": 174.56,
+        "margin": 0.45,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-022",
+        "name": "Allround Flickzeug-Set",
+        "price": 5.72,
+        "margin": 0.59,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-023",
+        "name": "Urban Lenkergriffe",
+        "price": 42.81,
+        "margin": 0.6,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-024",
+        "name": "Sport Premium Helm",
+        "price": 85.37,
+        "margin": 0.44,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-025",
+        "name": "Allround Fahrradständer",
+        "price": 36.82,
+        "margin": 0.43,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-026",
+        "name": "Urban Fahrradcomputer",
+        "price": 73.35,
+        "margin": 0.41,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-027",
+        "name": "Premium Premium Helm",
+        "price": 243.14,
+        "margin": 0.43,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-028",
+        "name": "Trail Fahrradbrille",
+        "price": 63.32,
+        "margin": 0.46,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-029",
+        "name": "Pro Fahrradschloss",
+        "price": 55.76,
+        "margin": 0.47,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-030",
+        "name": "Sport Licht-Set",
+        "price": 76.6,
+        "margin": 0.51,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-031",
+        "name": "Trail Reflektor-Set",
+        "price": 10.21,
+        "margin": 0.53,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-032",
+        "name": "Premium Pumpset",
+        "price": 39.89,
+        "margin": 0.47,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-033",
+        "name": "Trail Klingel",
+        "price": 14.54,
+        "margin": 0.55,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-034",
+        "name": "Standard Reflektor-Set",
+        "price": 4.12,
+        "margin": 0.55,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-035",
+        "name": "Pro Sattel",
+        "price": 158.91,
+        "margin": 0.39,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ZU-036",
+        "name": "Standard Gepäcktasche",
+        "price": 113.61,
+        "margin": 0.43,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-037",
+        "name": "Tour Pumpset",
+        "price": 76.5,
+        "margin": 0.57,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-038",
+        "name": "Urban Licht-Set",
+        "price": 131.03,
+        "margin": 0.46,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-039",
+        "name": "Trail Premium Helm",
+        "price": 281.66,
+        "margin": 0.53,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-040",
+        "name": "Urban Klingel",
+        "price": 15.47,
+        "margin": 0.61,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-041",
+        "name": "Sport Fahrradbrille",
+        "price": 33.97,
+        "margin": 0.4,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-042",
+        "name": "Pro Regenjacke",
+        "price": 209.26,
+        "margin": 0.52,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-043",
+        "name": "Sport Handschuhe",
+        "price": 62.48,
+        "margin": 0.46,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-044",
+        "name": "Premium Trinkflasche",
+        "price": 24.31,
+        "margin": 0.52,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-045",
+        "name": "Allround Fahrradhose",
+        "price": 155.38,
+        "margin": 0.52,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-046",
+        "name": "Lite Fahrradcomputer",
+        "price": 84.98,
+        "margin": 0.34,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-047",
+        "name": "Pro Trinkflasche",
+        "price": 31.81,
+        "margin": 0.6,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-048",
+        "name": "Trail Trinkflasche",
+        "price": 22.92,
+        "margin": 0.58,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-049",
+        "name": "Allround Klingel",
+        "price": 21.28,
+        "margin": 0.59,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-050",
+        "name": "Trail Fahrradcomputer",
+        "price": 72.9,
+        "margin": 0.37,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-051",
+        "name": "Sport Fahrradständer",
+        "price": 52.44,
+        "margin": 0.45,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-052",
+        "name": "Trail Schuhe",
+        "price": 58.4,
+        "margin": 0.43,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-053",
+        "name": "Premium Fahrradständer",
+        "price": 55.9,
+        "margin": 0.55,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-054",
+        "name": "Tour Licht-Set",
+        "price": 68.98,
+        "margin": 0.54,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-055",
+        "name": "Lite Klingel",
+        "price": 10.43,
+        "margin": 0.57,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-056",
+        "name": "Standard Fahrradcomputer",
+        "price": 206.68,
+        "margin": 0.42,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-057",
+        "name": "Pro Pumpset",
+        "price": 16.94,
+        "margin": 0.56,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-058",
+        "name": "Tour Schuhe",
+        "price": 179.69,
+        "margin": 0.4,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-059",
+        "name": "Sport Fahrradhose",
+        "price": 100.99,
+        "margin": 0.52,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-060",
+        "name": "Urban Flickzeug-Set",
+        "price": 8.26,
+        "margin": 0.66,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-061",
+        "name": "Pro Reflektor-Set",
+        "price": 9.0,
+        "margin": 0.59,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-062",
+        "name": "Allround Fahrradcomputer",
+        "price": 157.58,
+        "margin": 0.4,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-063",
+        "name": "Pro Handschuhe",
+        "price": 52.68,
+        "margin": 0.57,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-064",
+        "name": "Tour Fahrradständer",
+        "price": 38.48,
+        "margin": 0.52,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-065",
+        "name": "Tour Fahrradcomputer",
+        "price": 81.71,
+        "margin": 0.4,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-066",
+        "name": "Allround Pumpset",
+        "price": 15.37,
+        "margin": 0.5,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-067",
+        "name": "Allround Sattel",
+        "price": 190.1,
+        "margin": 0.42,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ZU-068",
+        "name": "Pro Lenkergriffe",
+        "price": 15.2,
+        "margin": 0.49,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-069",
+        "name": "Tour Gepäcktasche",
+        "price": 154.63,
+        "margin": 0.48,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-070",
+        "name": "Standard Pumpset",
+        "price": 63.64,
+        "margin": 0.58,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-071",
+        "name": "Urban Reflektor-Set",
+        "price": 6.31,
+        "margin": 0.53,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-072",
+        "name": "Standard Schuhe",
+        "price": 151.71,
+        "margin": 0.47,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-073",
+        "name": "Trail Lenkergriffe",
+        "price": 33.42,
+        "margin": 0.56,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-074",
+        "name": "Lite Schuhe",
+        "price": 182.5,
+        "margin": 0.42,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-075",
+        "name": "Trail Fahrradhose",
+        "price": 112.87,
+        "margin": 0.44,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-076",
+        "name": "Tour Handschuhe",
+        "price": 48.28,
+        "margin": 0.57,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-077",
+        "name": "Standard Pedale",
+        "price": 102.35,
+        "margin": 0.53,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ZU-078",
+        "name": "Premium Flickzeug-Set",
+        "price": 14.67,
+        "margin": 0.63,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-079",
+        "name": "Sport Gepäcktasche",
+        "price": 51.58,
+        "margin": 0.4,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-080",
+        "name": "Lite Licht-Set",
+        "price": 125.17,
+        "margin": 0.58,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-081",
+        "name": "Urban Premium Helm",
+        "price": 90.72,
+        "margin": 0.48,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-082",
+        "name": "Standard Lenkergriffe",
+        "price": 21.75,
+        "margin": 0.46,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-083",
+        "name": "Trail Fahrradständer",
+        "price": 59.24,
+        "margin": 0.42,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-084",
+        "name": "Trail Rucksack",
+        "price": 137.46,
+        "margin": 0.54,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-085",
+        "name": "Tour Flickzeug-Set",
+        "price": 10.35,
+        "margin": 0.67,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-086",
+        "name": "Sport Lenkergriffe",
+        "price": 13.87,
+        "margin": 0.49,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-087",
+        "name": "Tour Rucksack",
+        "price": 41.63,
+        "margin": 0.48,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-088",
+        "name": "Urban Fahrradständer",
+        "price": 14.1,
+        "margin": 0.45,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-089",
+        "name": "Standard Rucksack",
+        "price": 140.71,
+        "margin": 0.55,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-090",
+        "name": "Lite Fahrradhose",
+        "price": 156.27,
+        "margin": 0.49,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-091",
+        "name": "Tour Fahrradhose",
+        "price": 93.17,
+        "margin": 0.5,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-092",
+        "name": "Trail Licht-Set",
+        "price": 23.81,
+        "margin": 0.48,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ZU-093",
+        "name": "Standard Sattel",
+        "price": 82.65,
+        "margin": 0.4,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ZU-094",
+        "name": "Sport Rucksack",
+        "price": 44.86,
+        "margin": 0.5,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-095",
+        "name": "Allround Fahrradschloss",
+        "price": 75.45,
+        "margin": 0.49,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-096",
+        "name": "Urban Fahrradbrille",
+        "price": 115.63,
+        "margin": 0.53,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-097",
+        "name": "Allround Handschuhe",
+        "price": 77.29,
+        "margin": 0.5,
+        "duration_minutes": 2
+      },
+      {
+        "id": "ZU-098",
+        "name": "Allround Rucksack",
+        "price": 186.89,
+        "margin": 0.48,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-099",
+        "name": "Sport Flickzeug-Set",
+        "price": 8.82,
+        "margin": 0.56,
+        "duration_minutes": 3
+      },
+      {
+        "id": "ZU-100",
+        "name": "Urban Schuhe",
+        "price": 90.66,
+        "margin": 0.44,
+        "duration_minutes": 5
+      }
+    ],
+    "Ersatzteile": [
+      {
+        "id": "ET-001",
+        "name": "Original Schlauch 700c",
+        "price": 11.27,
+        "margin": 0.69,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-002",
+        "name": "Campagnolo Sattelstütze",
+        "price": 37.34,
+        "margin": 0.52,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-003",
+        "name": "OEM Bremsbeläge Felge",
+        "price": 14.07,
+        "margin": 0.58,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-004",
+        "name": "Schwalbe Kurbelarm",
+        "price": 73.35,
+        "margin": 0.51,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-005",
+        "name": "KMC Schaltwerk",
+        "price": 141.06,
+        "margin": 0.42,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-006",
+        "name": "OEM Schaltwerk",
+        "price": 61.48,
+        "margin": 0.46,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-007",
+        "name": "Campagnolo Reifen 700c",
+        "price": 76.12,
+        "margin": 0.33,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-008",
+        "name": "Continental Schaltwerk",
+        "price": 99.99,
+        "margin": 0.41,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-009",
+        "name": "OEM Schlauch 700c",
+        "price": 9.74,
+        "margin": 0.63,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-010",
+        "name": "SRAM Schlauch 26\"",
+        "price": 10.5,
+        "margin": 0.59,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-011",
+        "name": "Original Kassette",
+        "price": 114.64,
+        "margin": 0.46,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-012",
+        "name": "TRP Schlauch 26\"",
+        "price": 5.18,
+        "margin": 0.67,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-013",
+        "name": "Tektro Freilauf",
+        "price": 23.66,
+        "margin": 0.52,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-014",
+        "name": "OEM Schaltzug",
+        "price": 6.04,
+        "margin": 0.56,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-015",
+        "name": "Schwalbe Umwerfer",
+        "price": 51.83,
+        "margin": 0.39,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-016",
+        "name": "SRAM Speichen-Set",
+        "price": 14.02,
+        "margin": 0.63,
+        "duration_minutes": 30
+      },
+      {
+        "id": "ET-017",
+        "name": "TRP Lenker",
+        "price": 56.75,
+        "margin": 0.39,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-018",
+        "name": "Schwalbe Freilauf",
+        "price": 42.7,
+        "margin": 0.55,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-019",
+        "name": "Sport Kurbelarm",
+        "price": 28.71,
+        "margin": 0.41,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-020",
+        "name": "Sport Schaltwerk",
+        "price": 161.27,
+        "margin": 0.35,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-021",
+        "name": "KMC Lenker",
+        "price": 66.96,
+        "margin": 0.47,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-022",
+        "name": "Premium Lenker",
+        "price": 98.55,
+        "margin": 0.36,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-023",
+        "name": "Campagnolo Reifen 27.5\"",
+        "price": 78.98,
+        "margin": 0.44,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-024",
+        "name": "Campagnolo Kurbelarm",
+        "price": 80.53,
+        "margin": 0.5,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-025",
+        "name": "Premium Fahrradkette",
+        "price": 86.93,
+        "margin": 0.52,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-026",
+        "name": "Tektro Schlauch 700c",
+        "price": 10.8,
+        "margin": 0.6,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-027",
+        "name": "TRP Display E-Bike",
+        "price": 144.97,
+        "margin": 0.31,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-028",
+        "name": "Campagnolo Schaltwerk",
+        "price": 109.52,
+        "margin": 0.5,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-029",
+        "name": "OEM Display E-Bike",
+        "price": 126.72,
+        "margin": 0.32,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-030",
+        "name": "SRAM Umwerfer",
+        "price": 93.45,
+        "margin": 0.41,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-031",
+        "name": "Shimano Kurbelarm",
+        "price": 86.67,
+        "margin": 0.42,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-032",
+        "name": "TRP Sattelklemme",
+        "price": 8.12,
+        "margin": 0.59,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-033",
+        "name": "TRP Sattelstütze",
+        "price": 21.94,
+        "margin": 0.47,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-034",
+        "name": "KMC Vorbau",
+        "price": 24.02,
+        "margin": 0.47,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-035",
+        "name": "KMC Lager-Set",
+        "price": 19.13,
+        "margin": 0.64,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-036",
+        "name": "Original Bremsbeläge Felge",
+        "price": 5.22,
+        "margin": 0.67,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-037",
+        "name": "KMC E-Bike Akku",
+        "price": 457.79,
+        "margin": 0.2,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-038",
+        "name": "Campagnolo Vorbau",
+        "price": 54.18,
+        "margin": 0.38,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-039",
+        "name": "Continental Reifen 27.5\"",
+        "price": 76.53,
+        "margin": 0.4,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-040",
+        "name": "Continental Akku-Ladegerät",
+        "price": 89.61,
+        "margin": 0.32,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-041",
+        "name": "Original Freilauf",
+        "price": 21.11,
+        "margin": 0.49,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-042",
+        "name": "Sport Schlauch 700c",
+        "price": 7.4,
+        "margin": 0.57,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-043",
+        "name": "Schwalbe Motor-Sensor",
+        "price": 41.35,
+        "margin": 0.5,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-044",
+        "name": "SRAM Schaltwerk",
+        "price": 111.7,
+        "margin": 0.37,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-045",
+        "name": "Tektro Bremszug",
+        "price": 5.84,
+        "margin": 0.62,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-046",
+        "name": "Shimano Bremsbeläge Felge",
+        "price": 18.18,
+        "margin": 0.66,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-047",
+        "name": "Sport Schlauch 29\"",
+        "price": 13.63,
+        "margin": 0.69,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-048",
+        "name": "SRAM Display E-Bike",
+        "price": 189.06,
+        "margin": 0.38,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-049",
+        "name": "Premium Schaltzug",
+        "price": 11.47,
+        "margin": 0.63,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-050",
+        "name": "Shimano Tretlager",
+        "price": 46.33,
+        "margin": 0.41,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-051",
+        "name": "KMC Schaltzug",
+        "price": 9.29,
+        "margin": 0.56,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-052",
+        "name": "KMC Tretlager",
+        "price": 71.35,
+        "margin": 0.5,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-053",
+        "name": "Original Lenker",
+        "price": 129.13,
+        "margin": 0.41,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-054",
+        "name": "Schwalbe Reifen 26\"",
+        "price": 37.29,
+        "margin": 0.38,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-055",
+        "name": "Campagnolo Bremsbeläge Felge",
+        "price": 4.77,
+        "margin": 0.61,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-056",
+        "name": "TRP Reifen 700c",
+        "price": 38.45,
+        "margin": 0.38,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-057",
+        "name": "TRP Schlauch 700c",
+        "price": 6.8,
+        "margin": 0.7,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-058",
+        "name": "KMC Speichen-Set",
+        "price": 5.78,
+        "margin": 0.68,
+        "duration_minutes": 30
+      },
+      {
+        "id": "ET-059",
+        "name": "SRAM Akku-Ladegerät",
+        "price": 104.78,
+        "margin": 0.3,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-060",
+        "name": "Premium Bremsbeläge Felge",
+        "price": 14.7,
+        "margin": 0.65,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-061",
+        "name": "Tektro Kurbelarm",
+        "price": 30.92,
+        "margin": 0.51,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-062",
+        "name": "SRAM Sattelstütze",
+        "price": 27.81,
+        "margin": 0.52,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-063",
+        "name": "Shimano Lager-Set",
+        "price": 26.81,
+        "margin": 0.58,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-064",
+        "name": "TRP Kurbelarm",
+        "price": 58.19,
+        "margin": 0.46,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-065",
+        "name": "Original Tretlager",
+        "price": 37.94,
+        "margin": 0.5,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-066",
+        "name": "KMC Schlauch 29\"",
+        "price": 7.08,
+        "margin": 0.68,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-067",
+        "name": "Original Sattelklemme",
+        "price": 12.95,
+        "margin": 0.54,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-068",
+        "name": "KMC Sattelklemme",
+        "price": 12.66,
+        "margin": 0.61,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-069",
+        "name": "Tektro Vorbau",
+        "price": 25.08,
+        "margin": 0.47,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-070",
+        "name": "Original Bremszug",
+        "price": 12.59,
+        "margin": 0.66,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-071",
+        "name": "Original Schaltzug",
+        "price": 10.62,
+        "margin": 0.61,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-072",
+        "name": "Schwalbe Schlauch 29\"",
+        "price": 6.04,
+        "margin": 0.63,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-073",
+        "name": "Tektro Sattelstütze",
+        "price": 88.19,
+        "margin": 0.48,
+        "duration_minutes": 10
+      },
+      {
+        "id": "ET-074",
+        "name": "Schwalbe Bremsbeläge Felge",
+        "price": 6.07,
+        "margin": 0.55,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-075",
+        "name": "Continental Reifen 29\"",
+        "price": 55.09,
+        "margin": 0.38,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-076",
+        "name": "Tektro Umwerfer",
+        "price": 91.53,
+        "margin": 0.43,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-077",
+        "name": "Continental Reifen 700c",
+        "price": 66.0,
+        "margin": 0.44,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-078",
+        "name": "Schwalbe Sattelklemme",
+        "price": 7.97,
+        "margin": 0.57,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-079",
+        "name": "Shimano Bremszug",
+        "price": 12.37,
+        "margin": 0.58,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-080",
+        "name": "Shimano Reifen 27.5\"",
+        "price": 62.18,
+        "margin": 0.43,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-081",
+        "name": "SRAM Tretlager",
+        "price": 45.19,
+        "margin": 0.48,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-082",
+        "name": "Schwalbe Akku-Ladegerät",
+        "price": 76.35,
+        "margin": 0.27,
+        "duration_minutes": 5
+      },
+      {
+        "id": "ET-083",
+        "name": "TRP Speichen-Set",
+        "price": 9.7,
+        "margin": 0.68,
+        "duration_minutes": 30
+      },
+      {
+        "id": "ET-084",
+        "name": "Premium E-Bike Akku",
+        "price": 473.27,
+        "margin": 0.21,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-085",
+        "name": "OEM Freilauf",
+        "price": 29.59,
+        "margin": 0.49,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-086",
+        "name": "Sport Tretlager",
+        "price": 27.13,
+        "margin": 0.48,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-087",
+        "name": "Schwalbe Lenker",
+        "price": 54.31,
+        "margin": 0.37,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-088",
+        "name": "Sport Bremszug",
+        "price": 4.76,
+        "margin": 0.69,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-089",
+        "name": "Continental Bremszug",
+        "price": 7.49,
+        "margin": 0.57,
+        "duration_minutes": 15
+      },
+      {
+        "id": "ET-090",
+        "name": "Schwalbe Reifen 29\"",
+        "price": 54.71,
+        "margin": 0.43,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-091",
+        "name": "Original Schaltwerk",
+        "price": 192.61,
+        "margin": 0.52,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-092",
+        "name": "Campagnolo Umwerfer",
+        "price": 69.5,
+        "margin": 0.5,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-093",
+        "name": "Tektro Tretlager",
+        "price": 56.29,
+        "margin": 0.51,
+        "duration_minutes": 25
+      },
+      {
+        "id": "ET-094",
+        "name": "SRAM Reifen 27.5\"",
+        "price": 38.27,
+        "margin": 0.33,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-095",
+        "name": "OEM E-Bike Akku",
+        "price": 690.38,
+        "margin": 0.2,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-096",
+        "name": "Schwalbe Lager-Set",
+        "price": 34.51,
+        "margin": 0.51,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-097",
+        "name": "Premium Display E-Bike",
+        "price": 189.09,
+        "margin": 0.29,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-098",
+        "name": "Campagnolo Display E-Bike",
+        "price": 167.19,
+        "margin": 0.31,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-099",
+        "name": "KMC Reifen 27.5\"",
+        "price": 56.36,
+        "margin": 0.47,
+        "duration_minutes": 20
+      },
+      {
+        "id": "ET-100",
+        "name": "Shimano Reifen 29\"",
+        "price": 53.53,
+        "margin": 0.42,
+        "duration_minutes": 20
+      }
+    ],
+    "Werkstatt": [
+      {
+        "id": "WS-001",
+        "name": "Licht prüfen & einstellen Basic",
+        "price": 27.45,
+        "duration_minutes": 11,
+        "margin": 0.89
+      },
+      {
+        "id": "WS-002",
+        "name": "E-Bike Motor & Software Check Premium",
+        "price": 52.86,
+        "duration_minutes": 21,
+        "margin": 0.89
+      },
+      {
+        "id": "WS-003",
+        "name": "Bremsen entlüften Standard",
+        "price": 50.79,
+        "duration_minutes": 29,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-004",
+        "name": "Bremsbeläge wechseln Express",
+        "price": 47.22,
+        "duration_minutes": 30,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-005",
+        "name": "Sattel/Stütze einstellen",
+        "price": 24.25,
+        "duration_minutes": 16,
+        "margin": 0.85
+      },
+      {
+        "id": "WS-006",
+        "name": "Bremsen entlüften Express",
+        "price": 46.64,
+        "duration_minutes": 28,
+        "margin": 0.78
+      },
+      {
+        "id": "WS-007",
+        "name": "Lenker/Vorbau tauschen Express",
+        "price": 45.72,
+        "duration_minutes": 24,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-008",
+        "name": "Kassette wechseln",
+        "price": 62.35,
+        "duration_minutes": 25,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-009",
+        "name": "Laufrad einspeichen Express",
+        "price": 57.11,
+        "duration_minutes": 43,
+        "margin": 0.7
+      },
+      {
+        "id": "WS-010",
+        "name": "Bremsen entlüften Basic",
+        "price": 49.98,
+        "duration_minutes": 29,
+        "margin": 0.83
+      },
+      {
+        "id": "WS-011",
+        "name": "Kassette wechseln Premium",
+        "price": 59.75,
+        "duration_minutes": 28,
+        "margin": 0.8
+      },
+      {
+        "id": "WS-012",
+        "name": "Akku-Diagnose E-Bike Express",
+        "price": 48.1,
+        "duration_minutes": 29,
+        "margin": 0.88
+      },
+      {
+        "id": "WS-013",
+        "name": "Vollwäsche Fahrrad Basic",
+        "price": 40.15,
+        "duration_minutes": 30,
+        "margin": 0.8
+      },
+      {
+        "id": "WS-014",
+        "name": "Schaltung einstellen",
+        "price": 42.46,
+        "duration_minutes": 16,
+        "margin": 0.83
+      },
+      {
+        "id": "WS-015",
+        "name": "Licht prüfen & einstellen Premium",
+        "price": 16.09,
+        "duration_minutes": 14,
+        "margin": 0.83
+      },
+      {
+        "id": "WS-016",
+        "name": "Vollwäsche Fahrrad",
+        "price": 29.04,
+        "duration_minutes": 28,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-017",
+        "name": "Tretlager wechseln",
+        "price": 62.26,
+        "duration_minutes": 40,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-018",
+        "name": "Federgabel Service Basic",
+        "price": 73.55,
+        "duration_minutes": 61,
+        "margin": 0.69
+      },
+      {
+        "id": "WS-019",
+        "name": "Jahresinspektion Bio-Bike Basic",
+        "price": 62.96,
+        "duration_minutes": 46,
+        "margin": 0.86
+      },
+      {
+        "id": "WS-020",
+        "name": "Jahresinspektion Bio-Bike",
+        "price": 72.87,
+        "duration_minutes": 44,
+        "margin": 0.88
+      },
+      {
+        "id": "WS-021",
+        "name": "Lenker/Vorbau tauschen Premium V2",
+        "price": 52.9,
+        "duration_minutes": 29,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-022",
+        "name": "Sattel/Stütze einstellen Premium V2",
+        "price": 27.66,
+        "duration_minutes": 10,
+        "margin": 0.87
+      },
+      {
+        "id": "WS-023",
+        "name": "Kleine Inspektion Basic V2",
+        "price": 44.74,
+        "duration_minutes": 22,
+        "margin": 0.85
+      },
+      {
+        "id": "WS-024",
+        "name": "Sattel/Stütze einstellen Premium V5",
+        "price": 26.18,
+        "duration_minutes": 16,
+        "margin": 0.83
+      },
+      {
+        "id": "WS-025",
+        "name": "Vollwäsche Fahrrad Express V4",
+        "price": 27.37,
+        "duration_minutes": 28,
+        "margin": 0.75
+      },
+      {
+        "id": "WS-026",
+        "name": "Reifenwechsel inkl. Material Express V2",
+        "price": 50.12,
+        "duration_minutes": 24,
+        "margin": 0.71
+      },
+      {
+        "id": "WS-027",
+        "name": "Vollwäsche Fahrrad Basic V5",
+        "price": 41.47,
+        "duration_minutes": 23,
+        "margin": 0.76
+      },
+      {
+        "id": "WS-028",
+        "name": "Reifenwechsel inkl. Material Premium V3",
+        "price": 53.75,
+        "duration_minutes": 21,
+        "margin": 0.68
+      },
+      {
+        "id": "WS-029",
+        "name": "Sattel/Stütze einstellen V2",
+        "price": 22.85,
+        "duration_minutes": 11,
+        "margin": 0.81
+      },
+      {
+        "id": "WS-030",
+        "name": "Jahresinspektion Bio-Bike Basic V2",
+        "price": 66.34,
+        "duration_minutes": 40,
+        "margin": 0.85
+      },
+      {
+        "id": "WS-031",
+        "name": "Schaltung einstellen V3",
+        "price": 40.09,
+        "duration_minutes": 15,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-032",
+        "name": "Kassette wechseln Express V4",
+        "price": 58.86,
+        "duration_minutes": 35,
+        "margin": 0.78
+      },
+      {
+        "id": "WS-033",
+        "name": "Schaltung einstellen Premium V3",
+        "price": 44.71,
+        "duration_minutes": 23,
+        "margin": 0.8
+      },
+      {
+        "id": "WS-034",
+        "name": "Kassette wechseln Premium V2",
+        "price": 58.36,
+        "duration_minutes": 34,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-035",
+        "name": "Bremsen entlüften Basic V5",
+        "price": 39.75,
+        "duration_minutes": 30,
+        "margin": 0.85
+      },
+      {
+        "id": "WS-036",
+        "name": "Lenker/Vorbau tauschen V4",
+        "price": 51.71,
+        "duration_minutes": 26,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-037",
+        "name": "Lenker/Vorbau tauschen Express V5",
+        "price": 40.78,
+        "duration_minutes": 23,
+        "margin": 0.75
+      },
+      {
+        "id": "WS-038",
+        "name": "Reifenwechsel inkl. Material Basic V2",
+        "price": 46.25,
+        "duration_minutes": 26,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-039",
+        "name": "Reifenwechsel inkl. Material Basic V3",
+        "price": 40.1,
+        "duration_minutes": 25,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-040",
+        "name": "E-Bike Motor & Software Check Premium V2",
+        "price": 59.71,
+        "duration_minutes": 23,
+        "margin": 0.87
+      },
+      {
+        "id": "WS-041",
+        "name": "Lenker/Vorbau tauschen V2",
+        "price": 55.97,
+        "duration_minutes": 23,
+        "margin": 0.8
+      },
+      {
+        "id": "WS-042",
+        "name": "Federgabel Service V3",
+        "price": 92.97,
+        "duration_minutes": 72,
+        "margin": 0.74
+      },
+      {
+        "id": "WS-043",
+        "name": "Kassette wechseln Standard V3",
+        "price": 67.49,
+        "duration_minutes": 26,
+        "margin": 0.77
+      },
+      {
+        "id": "WS-044",
+        "name": "Akku-Diagnose E-Bike Express V3",
+        "price": 46.93,
+        "duration_minutes": 23,
+        "margin": 0.89
+      },
+      {
+        "id": "WS-045",
+        "name": "Kassette wechseln Basic V5",
+        "price": 57.81,
+        "duration_minutes": 30,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-046",
+        "name": "Laufrad einspeichen V5",
+        "price": 70.84,
+        "duration_minutes": 55,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-047",
+        "name": "Tretlager wechseln Express V4",
+        "price": 58.39,
+        "duration_minutes": 30,
+        "margin": 0.76
+      },
+      {
+        "id": "WS-048",
+        "name": "Schaltung einstellen Express V2",
+        "price": 30.22,
+        "duration_minutes": 24,
+        "margin": 0.83
+      },
+      {
+        "id": "WS-049",
+        "name": "Sattel/Stütze einstellen Premium V3",
+        "price": 22.14,
+        "duration_minutes": 13,
+        "margin": 0.83
+      },
+      {
+        "id": "WS-050",
+        "name": "Schaltung einstellen Basic V4",
+        "price": 30.15,
+        "duration_minutes": 22,
+        "margin": 0.87
+      },
+      {
+        "id": "WS-051",
+        "name": "Akku-Diagnose E-Bike Basic V3",
+        "price": 53.66,
+        "duration_minutes": 25,
+        "margin": 0.86
+      },
+      {
+        "id": "WS-052",
+        "name": "Vollwäsche Fahrrad Basic V3",
+        "price": 43.34,
+        "duration_minutes": 28,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-053",
+        "name": "Jahresinspektion Bio-Bike V2",
+        "price": 84.17,
+        "duration_minutes": 41,
+        "margin": 0.9
+      },
+      {
+        "id": "WS-054",
+        "name": "Jahresinspektion Bio-Bike Standard V5",
+        "price": 63.12,
+        "duration_minutes": 50,
+        "margin": 0.84
+      },
+      {
+        "id": "WS-055",
+        "name": "Reifenwechsel inkl. Material Standard V3",
+        "price": 45.11,
+        "duration_minutes": 25,
+        "margin": 0.68
+      },
+      {
+        "id": "WS-056",
+        "name": "Dämpfer Service Basic V5",
+        "price": 79.79,
+        "duration_minutes": 67,
+        "margin": 0.71
+      },
+      {
+        "id": "WS-057",
+        "name": "Jahresinspektion E-Bike Standard V4",
+        "price": 100.43,
+        "duration_minutes": 59,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-058",
+        "name": "Sattel/Stütze einstellen Express V2",
+        "price": 33.69,
+        "duration_minutes": 18,
+        "margin": 0.81
+      },
+      {
+        "id": "WS-059",
+        "name": "Bremsbeläge wechseln V4",
+        "price": 51.3,
+        "duration_minutes": 24,
+        "margin": 0.78
+      },
+      {
+        "id": "WS-060",
+        "name": "Kleine Inspektion Premium V5",
+        "price": 48.18,
+        "duration_minutes": 23,
+        "margin": 0.87
+      },
+      {
+        "id": "WS-061",
+        "name": "Schaltung einstellen Premium V2",
+        "price": 38.07,
+        "duration_minutes": 25,
+        "margin": 0.85
+      },
+      {
+        "id": "WS-062",
+        "name": "Kleine Inspektion Basic V5",
+        "price": 46.54,
+        "duration_minutes": 27,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-063",
+        "name": "Jahresinspektion E-Bike Express V2",
+        "price": 98.99,
+        "duration_minutes": 61,
+        "margin": 0.87
+      },
+      {
+        "id": "WS-064",
+        "name": "Tretlager wechseln V2",
+        "price": 75.84,
+        "duration_minutes": 30,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-065",
+        "name": "Federgabel Service Basic V4",
+        "price": 71.33,
+        "duration_minutes": 47,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-066",
+        "name": "Kette wechseln V2",
+        "price": 38.59,
+        "duration_minutes": 25,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-067",
+        "name": "Bremsbeläge wechseln V3",
+        "price": 50.05,
+        "duration_minutes": 26,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-068",
+        "name": "Kassette wechseln Express V3",
+        "price": 58.6,
+        "duration_minutes": 31,
+        "margin": 0.77
+      },
+      {
+        "id": "WS-069",
+        "name": "Vollwäsche Fahrrad Premium V5",
+        "price": 40.11,
+        "duration_minutes": 22,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-070",
+        "name": "Kleine Inspektion V4",
+        "price": 40.07,
+        "duration_minutes": 26,
+        "margin": 0.8
+      },
+      {
+        "id": "WS-071",
+        "name": "Tretlager wechseln Standard V4",
+        "price": 72.51,
+        "duration_minutes": 37,
+        "margin": 0.75
+      },
+      {
+        "id": "WS-072",
+        "name": "Sattel/Stütze einstellen Express V5",
+        "price": 20.37,
+        "duration_minutes": 19,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-073",
+        "name": "Schaltung einstellen Standard V2",
+        "price": 30.36,
+        "duration_minutes": 21,
+        "margin": 0.84
+      },
+      {
+        "id": "WS-074",
+        "name": "Reifenwechsel inkl. Material Basic V4",
+        "price": 42.21,
+        "duration_minutes": 21,
+        "margin": 0.68
+      },
+      {
+        "id": "WS-075",
+        "name": "Kassette wechseln Basic V4",
+        "price": 63.27,
+        "duration_minutes": 26,
+        "margin": 0.71
+      },
+      {
+        "id": "WS-076",
+        "name": "Vollwäsche Fahrrad V5",
+        "price": 27.07,
+        "duration_minutes": 21,
+        "margin": 0.74
+      },
+      {
+        "id": "WS-077",
+        "name": "Lenker/Vorbau tauschen Standard V4",
+        "price": 44.93,
+        "duration_minutes": 21,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-078",
+        "name": "Vollwäsche Fahrrad Express V3",
+        "price": 38.71,
+        "duration_minutes": 22,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-079",
+        "name": "Kassette wechseln Premium V5",
+        "price": 48.5,
+        "duration_minutes": 27,
+        "margin": 0.74
+      },
+      {
+        "id": "WS-080",
+        "name": "Kleine Inspektion Premium V4",
+        "price": 57.88,
+        "duration_minutes": 30,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-081",
+        "name": "Dämpfer Service Express V5",
+        "price": 84.35,
+        "duration_minutes": 59,
+        "margin": 0.65
+      },
+      {
+        "id": "WS-082",
+        "name": "Lenker/Vorbau tauschen Premium V5",
+        "price": 54.3,
+        "duration_minutes": 25,
+        "margin": 0.76
+      },
+      {
+        "id": "WS-083",
+        "name": "Sattel/Stütze einstellen V3",
+        "price": 23.81,
+        "duration_minutes": 19,
+        "margin": 0.88
+      },
+      {
+        "id": "WS-084",
+        "name": "Bremsbeläge wechseln Basic V4",
+        "price": 38.55,
+        "duration_minutes": 26,
+        "margin": 0.8
+      },
+      {
+        "id": "WS-085",
+        "name": "Kassette wechseln Basic V3",
+        "price": 52.82,
+        "duration_minutes": 29,
+        "margin": 0.78
+      },
+      {
+        "id": "WS-086",
+        "name": "Federgabel Service Express V3",
+        "price": 103.09,
+        "duration_minutes": 62,
+        "margin": 0.65
+      },
+      {
+        "id": "WS-087",
+        "name": "E-Bike Motor & Software Check Express V5",
+        "price": 64.95,
+        "duration_minutes": 21,
+        "margin": 0.92
+      },
+      {
+        "id": "WS-088",
+        "name": "Sattel/Stütze einstellen Basic V3",
+        "price": 29.13,
+        "duration_minutes": 13,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-089",
+        "name": "Reifenwechsel inkl. Material Basic V5",
+        "price": 36.48,
+        "duration_minutes": 29,
+        "margin": 0.71
+      },
+      {
+        "id": "WS-090",
+        "name": "Lenker/Vorbau tauschen V5",
+        "price": 48.05,
+        "duration_minutes": 25,
+        "margin": 0.79
+      },
+      {
+        "id": "WS-091",
+        "name": "Vollwäsche Fahrrad V2",
+        "price": 27.19,
+        "duration_minutes": 23,
+        "margin": 0.78
+      },
+      {
+        "id": "WS-092",
+        "name": "Laufrad einspeichen Express V2",
+        "price": 74.15,
+        "duration_minutes": 60,
+        "margin": 0.72
+      },
+      {
+        "id": "WS-093",
+        "name": "Schlauchwechsel inkl. Material Standard V2",
+        "price": 33.14,
+        "duration_minutes": 23,
+        "margin": 0.73
+      },
+      {
+        "id": "WS-094",
+        "name": "Vollwäsche Fahrrad V3",
+        "price": 33.92,
+        "duration_minutes": 26,
+        "margin": 0.76
+      },
+      {
+        "id": "WS-095",
+        "name": "Laufrad einspeichen Standard V5",
+        "price": 58.55,
+        "duration_minutes": 53,
+        "margin": 0.74
+      },
+      {
+        "id": "WS-096",
+        "name": "Kleine Inspektion Standard V3",
+        "price": 45.97,
+        "duration_minutes": 25,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-097",
+        "name": "Bremsbeläge wechseln V5",
+        "price": 41.97,
+        "duration_minutes": 21,
+        "margin": 0.76
+      },
+      {
+        "id": "WS-098",
+        "name": "Kassette wechseln Standard V2",
+        "price": 45.54,
+        "duration_minutes": 30,
+        "margin": 0.76
+      },
+      {
+        "id": "WS-099",
+        "name": "Bremsen entlüften Express V3",
+        "price": 47.83,
+        "duration_minutes": 30,
+        "margin": 0.82
+      },
+      {
+        "id": "WS-100",
+        "name": "Bremsen entlüften Express V5",
+        "price": 45.33,
+        "duration_minutes": 34,
+        "margin": 0.84
+      }
+    ]
+  }
+}

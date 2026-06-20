@@ -1,0 +1,56 @@
+{
+  "name": "Workshop Booking to Google Calendar",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "workshop-booking",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "webhook-node-1",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [400, 300],
+      "webhookId": "workshop-booking"
+    },
+    {
+      "parameters": {
+        "resource": "event",
+        "operation": "create",
+        "calendar": {
+          "__rl": true,
+          "value": "primary",
+          "mode": "list"
+        },
+        "start": "={{ $json.body.datetime }}",
+        "end": "={{ DateTime.fromISO($json.body.datetime).plus({minutes: $json.body.duration_minutes}).toISO() }}",
+        "additionalFields": {
+          "summary": "=🔧 Werkstatt: {{ $json.body.service_name }} ({{ $json.body.customer_name }})",
+          "description": "=Kunde: {{ $json.body.customer_name }}\nE-Mail: {{ $json.body.customer_email }}\nService: {{ $json.body.service_name }}\nDauer: {{ $json.body.duration_minutes }} Minuten\nPreis: {{ $json.body.price }} €\nBuchungs-ID: {{ $json.body.booking_id }}"
+        }
+      },
+      "id": "gcal-node-1",
+      "name": "Google Calendar",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1,
+      "position": [640, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Google Calendar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {}
+}

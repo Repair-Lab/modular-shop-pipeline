@@ -1,0 +1,12 @@
+Apply
+venv/
+__pycache__/
+*.parquet
+*.pkl
+machine_learning/models/*.pkl
+data/processed/*.parquet
+secret.json
+client_secret*.json
+automation/.env
+.DS_Store
+gemini.md
