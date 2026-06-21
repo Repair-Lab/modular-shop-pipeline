@@ -59,10 +59,13 @@
   * **Live-Demo:** Ziehen Sie die Wetter-Slider (Temperatur hoch, Regen runter) und zeigen Sie dem Prüfer, wie sich die Strategie für Lager *und* Werkstatt dynamisch anpasst (Spontankunden vs. Planbare Inspektionen).
 
 ### 5. Phase 6: Cloud-Infrastruktur & AWS Deployment (3 Min)
-* **Die Architektur:** "Die gesamte App läuft nicht nur auf meinem Laptop. Sie ist in Docker-Containern gekapselt."
-* **AWS EC2:** "Ich habe das System auf einer AWS t2.micro (Free Tier) Instanz provisioniert."
-* **Die Herausforderung & Lösung:** "Da die Instanz nur 1GB RAM hat, kam es bei ML-Prozessen zu Out-Of-Memory-Fehlern. Ich habe dies gelöst, indem ich via Linux-Kommandozeile einen **2GB Swap-Space** auf der SSD eingerichtet habe."
-* *(Falls live auf AWS: Link zum Server im Browser öffnen).*
+* **Die Architektur:** "Die gesamte App läuft nicht nur auf meinem Laptop. Sie ist in Docker-Containern gekapselt und im Internet erreichbar."
+* **AWS EC2:** "Ich habe das System auf einer AWS t2.micro (Free Tier) Instanz provisioniert. Um Googles strenge OAuth2-Sicherheitsrichtlinien zu umgehen, habe ich einen sicheren OAuth-Tunnel über n8n etabliert."
+* **Das RAM-Problem:** "Da die Instanz nur 1GB RAM hat, kam es bei Datenbank-Operationen zu Engpässen. Ich habe dies gelöst, indem ich auf Ubuntu-Ebene einen **2GB Swap-Space** auf der SSD eingerichtet habe."
+* **Zero-Touch Automation (CI/CD Gedanke):** 
+  * "Eine berechtigte Frage ist: Muss ich die ML-Modelle jeden Tag manuell trainieren? **Nein.**"
+  * "Ich habe auf dem Server einen **Linux CRON-Daemon** eingerichtet. Jeden Tag um 02:00 Uhr nachts zieht das ETL-Skript automatisch die neuen Daten. Um 02:05 Uhr werden die drei ML-Modelle automatisch neu trainiert. Wenn der Manager morgens das Dashboard öffnet, ist die KI bereits auf dem Stand von gestern."
+* *(Falls live auf AWS: Link zum Dashboard `http://3.67.100.249:8501` im Browser öffnen).*
 
 ### 6. Fazit & Q&A (2 Min)
 * **Zusammenfassung:** "Dieses Projekt beweist, dass moderne Daten-Architektur mehr ist als nur bunte Graphen. Es ist die Kombination aus Engineering (ETL), Automation (n8n) und Intelligence (ML), die echtes Business-Value generiert."

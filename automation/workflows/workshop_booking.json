@@ -17,12 +17,13 @@
     },
     {
       "parameters": {
+        "authentication": "serviceAccount",
         "resource": "event",
         "operation": "create",
         "calendar": {
           "__rl": true,
-          "value": "primary",
-          "mode": "list"
+          "value": "5266fbf13acdccef97046669b487eb84f59fadaa9b9699bd8695465d0ba935f8@group.calendar.google.com",
+          "mode": "id"
         },
         "start": "={{ $json.body.datetime }}",
         "end": "={{ DateTime.fromISO($json.body.datetime).plus({minutes: $json.body.duration_minutes}).toISO() }}",
@@ -35,7 +36,13 @@
       "name": "Google Calendar",
       "type": "n8n-nodes-base.googleCalendar",
       "typeVersion": 1,
-      "position": [640, 300]
+      "position": [640, 300],
+      "credentials": {
+        "googleApi": {
+          "id": "DEINE_CREDENTIAL_ID",
+          "name": "Service Account Credential"
+        }
+      }
     }
   ],
   "connections": {

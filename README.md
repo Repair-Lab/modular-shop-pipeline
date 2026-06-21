@@ -97,11 +97,13 @@ Diese Checkliste dient als Entwicklungs-Leitfaden von der ersten Zeile Code bis 
 - [x] Seite 5_Wetter_Analyse.py mit n8n-API Mock, ML-gesteuerter Wetter-Umsatz-Prognose und Korrelationsmatrix ausstatten.
 
 **Phase 6: Cloud Deployment (AWS)**
-- [ ] AWS-Konto prüfen und eine t2.micro EC2-Instanz starten.
-- [ ] SSH-Verbindung herstellen und 2 GB Swap-Space konfigurieren (verhindert RAM-Limitierung).
-- [ ] Docker und Docker-Compose auf dem Server installieren.
-- [ ] Repository via Git klonen.
-- [ ] Container (n8n, Streamlit, DB) auf AWS hochfahren und live testen.
+- [x] AWS-Konto prüfen und eine t2.micro EC2-Instanz (Ubuntu) starten.
+- [x] SSH-Verbindung herstellen, Security Groups (Ports 22, 80, 5678, 8501) konfigurieren und 2 GB Swap-Space einrichten.
+- [x] Docker, Docker-Compose und Python-Environments auf dem Server installieren.
+- [x] Repository via Git klonen und Infrastruktur starten.
+- [x] Google OAuth2-Sicherheitsrichtlinien überwinden und n8n mit der Cloud-IP verknüpfen.
+- [x] **Zero-Touch Automation:** Linux CRON-Jobs einrichten, die jede Nacht um 02:00 Uhr die ETL-Pipeline und das ML-Retraining vollautomatisch auslösen.
+- [x] Dashboard als Hintergrund-Prozess (`nohup`) live ins Internet stellen.
 🚀 Lokaler Entwicklungsstart
 Klone das Repository:
 Bash
