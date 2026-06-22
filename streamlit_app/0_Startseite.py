@@ -163,17 +163,22 @@ try:
     with row2_col2:
         st.markdown("""
         <div style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); padding: 1.5rem; border-radius: 10px; color: black; height: 100%;">
-        <h3 style="color: black; margin-top:0;">🌤️ 5. Der Master-Plan</h3>
+        <h3 style="color: black; margin-top:0;">🌤️ 5. Wetterdaten & ML-Strategie</h3>
         <b>Das Finale:</b> Hier fließen alle Teilbereiche zusammen. 
-        Ein übergreifendes ML-Modell nutzt externe Wetterdaten (OpenWeatherMap via n8n), um tagesaktuelle Handlungsanweisungen für Lager und Personal dynamisch zu berechnen.
+        Ein übergreifendes ML-Modell nutzt simulierte API-Daten (OpenWeatherMap via n8n), um tagesaktuelle Handlungsanweisungen für Lager und Personal zu berechnen.
         </div>
         """, unsafe_allow_html=True)
         
     with row2_col3:
         st.markdown("""
-        <div style="background-color: #f0f2f6; padding: 1.5rem; border-radius: 10px; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 2px dashed #ccc;">
-        <h3 style="color: #888; text-align: center;">☁️ Phase 6</h3>
-        <p style="color: #888; text-align: center;">AWS EC2 Cloud Deployment</p>
+        <div style="background-color: #262730; padding: 1.5rem; border-radius: 10px; height: 100%; border-left: 5px solid #FF9900;">
+        <h3 style="color: #FF9900; margin-top:0;">☁️ Phase 6: Cloud Deployment</h3>
+        <b>AWS EC2 Infrastruktur:</b>
+        <ul style="color: #bbb; padding-left: 1.2rem; margin-top: 0.5rem;">
+            <li>Dockerisierte System-Architektur</li>
+            <li>Googles OAuth2-Tunneling via n8n</li>
+            <li><b>Zero-Touch:</b> Nächtliche CRON-Jobs automatisieren die ETL-Pipeline und das ML-Retraining.</li>
+        </ul>
         </div>
         """, unsafe_allow_html=True)
 
