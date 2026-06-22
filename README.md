@@ -42,7 +42,7 @@ Dieses Repository beinhaltet eine vollständige Daten-Pipeline: von der simulier
 │   ├── predict.py           # Hilfsskript für neue Vorhersagen
 │   └── models/              # Ablage für trainierte Modelle (.pkl)
 └── streamlit_app/           
-    ├── app.py               # Main Dashboard (KPI-Übersicht)
+    ├── 0_Startseite.py      # Main Dashboard (Portfolio Präsentations-Seite)
     ├── requirements.txt     
     └── pages/
         ├── 1_Finanzen.py    # Visualisierung: Umsatz, Marge & Random-Forest-Prognosen
@@ -50,12 +50,11 @@ Dieses Repository beinhaltet eine vollständige Daten-Pipeline: von der simulier
         ├── 3_Werkstatt.py   # Visualisierung: Ressourcen-Management & Kapazitäts-Prognosen
         ├── 4_Lagerbestand.py # Visualisierung: ABC-Analyse, Pareto & Bestandsüberwachung
         └── 5_Wetter_Analyse.py # Visualisierung: Wetter-Korrelationen & n8n Live-Data Mocks
+```
 
+---
 
-
-
-
-🧠 Machine Learning Modelle
+## 🧠 Machine Learning Modelle
 Das Projekt löst drei reale geschäftliche Herausforderungen:
 - **Finanz-Prognose (1_Finanzen.py):** Sagt die Einnahmen der kommenden Wochen voraus, basierend auf historischen Verkäufen und saisonalen Effekten (Gleitende Durchschnitte & Random Forest Regression).
 - **Inspektions-Churn (2_Kunden.py):** Ein Klassifikationsmodell, das die Wahrscheinlichkeit berechnet, mit der ein E-Bike-Käufer nicht zur Jahresinspektion zurückkehrt. Ergänzt durch RFM-Kunden-Segmentierung. Ermöglicht automatisierte Rabatt-Kampagnen via n8n.
@@ -63,7 +62,9 @@ Das Projekt löst drei reale geschäftliche Herausforderungen:
 
 *(Zusätzlich implementiert: Ein datengesteuertes Lager-Management mit ABC-Analyse und dynamischer Reichweitenberechnung in `4_Lagerbestand.py`)*
 
-🗺️ Projekt Roadmap (A bis Z)
+---
+
+## 🗺️ Projekt Roadmap (A bis Z)
 Diese Checkliste dient als Entwicklungs-Leitfaden von der ersten Zeile Code bis zum Cloud-Deployment.
 
 **Phase 1: Fundament & Datensimulation**
@@ -89,7 +90,7 @@ Diese Checkliste dient als Entwicklungs-Leitfaden von der ersten Zeile Code bis 
 - [x] predict.py als universelle Schnittstelle für die Modelle einrichten.
 
 **Phase 5: Dashboarding (Streamlit)**
-- [x] streamlit_app/app.py als Landing-Page (Command Center) mit Meta-KPIs aufbauen.
+- [x] streamlit_app/0_Startseite.py als Landing-Page (Command Center) mit Meta-KPIs aufbauen.
 - [x] Seite 1_Finanzen.py mit interaktiven Zeitfiltern, Moving-Averages und kombiniertem KI-Trend ausstatten.
 - [x] Seite 2_Kunden.py mit Bubble-Charts, RFM-Filterung und automatisierten n8n-Massenmail-Mocks ausstatten.
 - [x] Seite 3_Werkstatt.py mit Ampel-Kapazitätsauslastung, Service-Mix-Scatterplot und Suchfunktion ausstatten.
@@ -104,17 +105,23 @@ Diese Checkliste dient als Entwicklungs-Leitfaden von der ersten Zeile Code bis 
 - [x] Google OAuth2-Sicherheitsrichtlinien überwinden und n8n mit der Cloud-IP verknüpfen.
 - [x] **Zero-Touch Automation:** Linux CRON-Jobs einrichten, die jede Nacht um 02:00 Uhr die ETL-Pipeline und das ML-Retraining vollautomatisch auslösen.
 - [x] Dashboard als Hintergrund-Prozess (`nohup`) live ins Internet stellen.
-🚀 Lokaler Entwicklungsstart
+## 🚀 Lokaler Entwicklungsstart
 Klone das Repository:
-Bash
-   git clone <dein-repo-url>
-   cd modular-shop-pipeline
-Starte die Infrastruktur (n8n):
-Bash
-   cd automation && docker-compose up -d
-Generiere Testdaten:
-Bash
-   python data_generator/generator.py
+```bash
+git clone <dein-repo-url>
+cd modular-shop-pipeline
+```
+Starte die Infrastruktur (n8n & DB):
+```bash
+cd automation && docker-compose up -d
+```
+Generiere Testdaten und starte die ML-Pipeline:
+```bash
+python data_generator/generator.py
+python etl_pipeline/load.py
+python machine_learning/predict.py
+```
 Starte das Dashboard:
-Bash
-   streamlit run streamlit_app/app.py
+```bash
+streamlit run streamlit_app/0_Startseite.py
+```

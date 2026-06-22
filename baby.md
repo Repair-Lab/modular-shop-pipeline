@@ -52,11 +52,41 @@ python machine_learning/train_capacity.py
 ### Schritt 7: Das Dashboard (Streamlit) öffnen
 Jetzt bringen wir alles zusammen und starten die visuelle Oberfläche. Führe diesen Befehl aus:
 ```bash
-streamlit run streamlit_app/app.py
+streamlit run streamlit_app/0_Startseite.py
 ```
 *(Dein Browser sollte sich nun automatisch öffnen. Falls nicht, klicke auf den angezeigten Link im Terminal, meistens `http://localhost:8501`)*
 
 ---
-### 🎉 Fertig!
-Wenn du bis hierhin gekommen bist, läuft deine gesamte Infrastruktur inkl. KI-Modellen und Frontend lokal.
-Für den nächsten großen Schritt (Deployment auf AWS) schau in die Haupt-`README.md` unter **Phase 6**.
+### ☁️ Der Profi-Workflow (Code-Updates auf den Server bringen)
+
+Da dein Projekt nun live auf AWS läuft, programmierst du **niemals** direkt auf dem Server. Du nutzt diesen klassischen DevOps-Ablauf:
+
+**1. Lokal in VS Code programmieren:**
+Ändere deinen Code ganz normal in VS Code auf deinem Mac, speichere ihn und teste das Dashboard lokal.
+
+**2. Zu GitHub pushen (im Mac-Terminal):**
+Wenn alles lokal funktioniert, lädst du die neuen Dateien zu GitHub hoch:
+```bash
+git add .
+git commit -m "Beschreibe kurz deine Änderung, z.B. 'Farbe im Dashboard angepasst'"
+git push
+```
+
+**3. Auf dem AWS-Server aktualisieren (Pull):**
+Verbinde dich jetzt über das Mac-Terminal mit deinem Cloud-Server:
+```bash
+ssh -i ~/Downloads/was-shop-key.pem ubuntu@DEINE_PUBLIC_IP
+```
+Wechsle in den Projektordner und sauge dir die frischen Änderungen von GitHub:
+```bash
+cd modular-shop-pipeline
+git pull
+```
+
+**4. Streamlit auf AWS neustarten (Nur bei Dashboard-Änderungen):**
+Damit die Änderungen im Internet sichtbar werden, musst du den alten Streamlit-Prozess auf dem Server kurz beenden und neu starten:
+```bash
+pkill streamlit
+nohup streamlit run streamlit_app/0_Startseite.py --server.port 8501 > streamlit.log 2>&1 &
+```
+*(Danach kannst du das Server-Terminal einfach schließen. Das Dashboard läuft im Hintergrund weiter!)*
