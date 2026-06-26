@@ -22,7 +22,7 @@
 ### 1. Einleitung & Projektvision (3 Min)
 * **Hook:** "Stellen Sie sich vor, Sie betreiben einen hybriden Fahrradladen (Verkauf + Werkstatt). Ihr Problem: Daten liegen in Silos, Personal wird falsch geplant, Kapital ist in Ladenhütern gebunden."
 * **Lösung:** "Mein Abschlussprojekt ist eine komplette **End-to-End Datenpipeline**. Kein reines Jupyter-Notebook-Projekt, sondern ein produktionsnahes System."
-* **Der Tech-Stack:** Kurz die Architekturgrafik/Tools erwähnen (Python, PostgreSQL, n8n, Scikit-Learn, Streamlit, Docker, AWS).
+* **Der Tech-Stack:** Kurz die Architekturgrafik/Tools erwähnen (Python, PostgreSQL, n8n, Scikit-Learn, Streamlit, Docker, AWS, Google cloud).
 
 ### 2. Phase 1 & 2: Datensimulation und Automatisierung (5 Min)
 * **Die Herausforderung:** "Ich hatte keine echten Unternehmensdaten. Also musste ich das Unternehmen *simulieren*."
