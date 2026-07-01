@@ -82,14 +82,72 @@ try:
     active_customers = len(df_customers[df_customers['days_since_last_purchase'] <= 180])
     customer_retention = (active_customers / total_customers * 100) if total_customers > 0 else 0
 
-    st.subheader("📊 Executive Summary (Echtzeit-Datenbank)")
+    # ===== EXECUTIVE DASHBOARD: Unser Shop vs. Markt (NEU) =====
+    st.subheader("📊 Executive Dashboard: Unser Shop vs. Markt")
     
-    # 4 Spalten für Quick KPIs
-    kpi1, kpi2, kpi3, kpi4 = st.columns(4)
-    kpi1.metric("💰 Simulierter Gesamtumsatz", f"{total_revenue:,.2f} €")
-    kpi2.metric("👥 Datenbank-Kunden", f"{total_customers}")
-    kpi3.metric("📈 Customer Retention", f"{customer_retention:.1f} %")
-    kpi4.metric("🔧 Werkstatt-Operationen", f"{total_bookings}")
+    col_shop, col_markt = st.columns(2)
+    
+    # --- LINKE SPALTE: UNSER SHOP (HYBRID-ANSATZ) ---
+    with col_shop:
+        with st.container(border=True):
+            st.subheader("🏠 Unser Shop (Interne Daten)")
+            
+            # Hybrid-Ansatz: Versuche echte Daten zu laden, fallback zu Demo-Werten
+            try:
+                # Lade reale Shop-Daten aus ETL
+                unser_umsatz = df_sales['price'].sum()
+                unser_kundenalter = df_customers['Customer_Age'].mean() if 'Customer_Age' in df_customers.columns else 48.5
+                unser_bestseller = df_sales['Product_Category'].value_counts().index[0] if 'Product_Category' in df_sales.columns else "E-Bikes"
+                
+            except (KeyError, IndexError):
+                # Fallback: Demo-Werte wenn Spalten nicht existieren
+                unser_umsatz = 345000
+                unser_kundenalter = 48.5
+                unser_bestseller = "E-Bikes"
+            
+            st.metric("💰 Shop Gesamtumsatz", f"{unser_umsatz:,.0f} €".replace(",", "."))
+            st.metric("👥 Shop Ø Kundenalter", f"{unser_kundenalter:.1f} Jahre")
+            st.metric("🏆 Shop Bestseller", unser_bestseller)
+            
+            st.info("🔍 Detaillierte interne Analysen & ML-Prognosen (Churn, Werkstatt, Kapazität) findest du im Menü unter den Seiten 1 bis 5.")
+    
+    # --- RECHTE SPALTE: DER MARKT (KAGGLE BENCHMARK) ---
+    with col_markt:
+        with st.container(border=True):
+            st.subheader("🌍 Der Markt (Deutschland Benchmark)")
+            
+            # Kaggle-Daten laden
+            markt_csv_path = os.path.join(BASE_DIR, 'data_benchmark', 'bike_sales_germany_2026.csv')
+            
+            try:
+                df_markt = pd.read_csv(markt_csv_path)
+                
+                # KPIs aus Marktdaten berechnen
+                markt_umsatz = df_markt['Revenue'].sum()
+                markt_kundenalter = df_markt['Customer_Age'].mean()
+                markt_bestseller = df_markt['Product_Category'].value_counts().index[0]
+                
+                # Deltas berechnen (Vergleich: Shop vs. Markt)
+                delta_alter = unser_kundenalter - markt_kundenalter
+                
+                # Anzeige der Metriken mit Deltas
+                st.metric("💰 Markt Gesamtumsatz (Sample)", f"{markt_umsatz:,.0f} €".replace(",", "."))
+                
+                st.metric("👥 Markt Ø Kundenalter", f"{markt_kundenalter:.1f} Jahre", 
+                          delta=f"{delta_alter:+.1f} Jahre (Wir sind älter)", delta_color="inverse")
+                
+                st.metric("🏆 Markt Bestseller (Volumen)", markt_bestseller, 
+                          delta="Abweichend zu unserem Shop" if markt_bestseller != unser_bestseller else "Übereinstimmung!")
+                
+                st.success("📊 Detaillierte Marktanalyse mit interaktiven Filtern & Visualisierungen:")
+                st.info("👉 **Seite 6 – Marktanalyse & Benchmark** (Bundesland-Filter, Zeitraum, Histogramme, Boxplots)")
+                
+            except FileNotFoundError:
+                st.error("⚠️ Marktdaten (bike_sales_germany_2026.csv) nicht gefunden.")
+                st.info("💡 Führe das Notebook `eda_pipeline/bike-store-sales-in-europe.ipynb` aus, um die Marktdaten zu generieren.")
+                
+            except Exception as e:
+                st.error(f"Fehler beim Verarbeiten der Marktdaten: {str(e)}")
     
     st.divider()
 
@@ -171,9 +229,8 @@ try:
         
     with row2_col3:
         st.markdown("""
-        <div style="background-color: #262730; padding: 1.5rem; border-radius: 10px; height: 100%; border-left: 5px solid #FF9900;">
-        <h3 style="color: #FF9900; margin-top:0;">☁️ Phase 6: Cloud Deployment</h3>
-        <b>AWS EC2 Infrastruktur:</b>
+        <div style="background-color: #262730; padding: 1.5rem; border-radius: 10px; height: 100%; border-left: 5px solid #FF9800;">
+        <h3 style="color: #FF9800; margin-top:0;">☁️ 6. AWS EC2 Infrastruktur</h3>
         <ul style="color: #bbb; padding-left: 1.2rem; margin-top: 0.5rem;">
             <li>Dockerisierte System-Architektur</li>
             <li>Googles OAuth2-Tunneling via n8n</li>
