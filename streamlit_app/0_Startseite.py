@@ -140,7 +140,7 @@ try:
                           delta="Abweichend zu unserem Shop" if markt_bestseller != unser_bestseller else "Übereinstimmung!")
                 
                 st.success("📊 Detaillierte Marktanalyse mit interaktiven Filtern & Visualisierungen:")
-                st.info("👉 **Seite 6 – Marktanalyse & Benchmark** (Bundesland-Filter, Zeitraum, Histogramme, Boxplots)")
+                
                 
             except FileNotFoundError:
                 st.error("⚠️ Marktdaten (bike_sales_germany_2026.csv) nicht gefunden.")
@@ -165,11 +165,6 @@ try:
     
     with row1_col1:
         st.info("""
-
-
-
-
-
         ### 💰 1. Finanzen
         **Technologie:** Random Forest, Moving Averages
         - Interaktive Zeitreihenanalyse
@@ -178,40 +173,22 @@ try:
     
     with row1_col2:
         st.success("""
-
-
-
-
-
         ### 👥 2. Kunden CRM
         **Technologie:** RFM-Analyse, n8n Webhooks
         - Mathematische Kundensegmentierung
         - ML: Churn-Prediction inkl. n8n-Rückgewinnung
         """)
-
-
         
     with row1_col3:
         st.warning("""
-
-
-
-
-
         ### 🔧 3. Werkstatt
         **Technologie:** Regression, Kapazitätslimits
         - Service-Mix-Analyse (Profitabilität)
         - ML: Prognose der erwarteten Mechaniker-Auslastung
         """)
         
-
     with row2_col1:
         st.error("""
-
-
-
-
-
         ### 📦 4. Lagerbestand
         **Technologie:** Pareto (80/20), Days-of-Supply
         - ABC-Klassifizierung des Inventars
@@ -229,8 +206,20 @@ try:
         
     with row2_col3:
         st.markdown("""
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1.5rem; border-radius: 10px; color: white; height: 100%;">
+        <h3 style="color: white; margin-top:0;">📊 6. Marktanalyse & Benchmark</h3>
+        <b>Wettbewerbsanalyse:</b> Interaktive Marktdaten aus Kaggle mit Bundesland-Filter, Zeitraumauswahl, Histogrammen und Boxplots für datengestützte Geschäftsentscheidungen.
+        </div>
+        """, unsafe_allow_html=True)
+    
+    st.divider()
+    
+    row3_col1, row3_col2 = st.columns([2, 1])
+    
+    with row3_col1:
+        st.markdown("""
         <div style="background-color: #262730; padding: 1.5rem; border-radius: 10px; height: 100%; border-left: 5px solid #FF9800;">
-        <h3 style="color: #FF9800; margin-top:0;">☁️ 6. AWS EC2 Infrastruktur</h3>
+        <h3 style="color: #FF9800; margin-top:0;">☁️ 7. AWS EC2 Infrastruktur</h3>
         <ul style="color: #bbb; padding-left: 1.2rem; margin-top: 0.5rem;">
             <li>Dockerisierte System-Architektur</li>
             <li>Googles OAuth2-Tunneling via n8n</li>
@@ -238,6 +227,8 @@ try:
         </ul>
         </div>
         """, unsafe_allow_html=True)
+    
+
 
 
 
