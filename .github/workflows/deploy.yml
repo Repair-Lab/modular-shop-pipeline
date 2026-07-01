@@ -1,0 +1,35 @@
+name: CI/CD Pipeline to AWS EC2
+
+on:
+  push:
+    branches:
+      - main # Der Trigger: Reagiert auf jeden Push auf den Hauptbranch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Executing remote ssh commands using ssh-key
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ubuntu
+          key: ${{ secrets.AWS_PRIVATE_KEY }}
+          port: 22
+          script: |
+            echo "🚀 Starte automatisches Deployment auf AWS..."
+            cd ~/modular-shop-pipeline
+            
+            echo "📥 Ziehe neuesten Code von GitHub..."
+            git pull origin main
+            
+            echo "🐳 Starte Docker-Container neu und baue Streamlit-App frisch..."
+            cd automation
+            sudo docker compose down
+            sudo docker compose up -d --build
+            
+            echo "✅ Deployment erfolgreich abgeschlossen!"
